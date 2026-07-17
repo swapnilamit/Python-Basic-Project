@@ -30,10 +30,10 @@ while(True):
 
     elif(choise=='4'): #Delete Task
         tasknum=int(input("Enter The Num Of Task Delete: "))
-        Todo_list[tasknum-1].pop()
+        Todo_list.pop(tasknum-1)
         print("Task Delete")            
 
-    elif(choice=='5'): #Close The Program
+    elif(choise=='5'): #Close The Program
         print("--closing--")
         break    
 
